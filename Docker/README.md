@@ -139,11 +139,11 @@ zabbix_get -s 127.0.0.1 -p 10050 -k "docker_status[tomcat mem_percent]"
 
 
 ## 2. 效果
-![image.png](https://img.hacpai.com/file/2020/04/image-67f8d6dd.png)
+![image.png](images/1.png)
 
-![image.png](https://img.hacpai.com/file/2020/04/image-5d032609.png)
+![image.png](images/2.png)
 
-![image.png](https://img.hacpai.com/file/2020/04/image-97e85d8c.png)
+![image.png](images/3.png)
 
 ## 3.问题解决
 
