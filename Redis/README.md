@@ -128,22 +128,23 @@ redis-template.xml文件内容参考[github](https://raw.githubusercontent.com/L
  
  `配置`-`模板`-`导入`
  
- ![image.png](https://img.hacpai.com/file/2020/04/image-d5566cb6.png)
+![image.png](images/1.png)
 
 点击`选择文件`，找到`redis-template.xml`文件，将其导入
 
-![image.png](https://img.hacpai.com/file/2020/04/image-e4a3e889.png)
+![image.png](images/2.png)
 
-![image.png](https://img.hacpai.com/file/2020/04/image-e8deeaf6.png)
+![image.png](images/3.png)
 
 
 ## 4.给主机添加监控模板
-![image.png](https://img.hacpai.com/file/2020/04/image-d4cbfd57.png)
+![image.png](images/4.png)
 
-![image.png](https://img.hacpai.com/file/2020/04/image-d8a786ec.png)
+![image.png](images/5.png)
 
 监控效果如图：
-![image.png](https://img.hacpai.com/file/2020/04/image-158c51e3.png)
+
+![image.png](images/6.png)
 
 ## 5.参考
 [线上zabbix监控redis和redis集群](https://blog.51cto.com/13120271/2317181)
