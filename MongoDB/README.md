@@ -307,6 +307,7 @@ UserParameter=mongodb.zabbix.sender,/etc/zabbix/zabbix_agentd.d/mongodb-stats.sh
 ```
 
 ## 4.重启zabbix-agent
+
 ```
 systemctl restart zabbix-agent
 ```
@@ -318,29 +319,38 @@ systemctl restart zabbix-agent
 
  
 ### 5.1 导入模板
+
 配置-》模板-》导入
-![image.png](https://img.hacpai.com/file/2020/04/image-866ec9f7.png)
+![image.png](images/1.png)
 
 选择`Template_MongoDB.xml`导入即可
-![image.png](https://img.hacpai.com/file/2020/04/image-bb2fab6b.png)
+![image.png](images/2.png)
 
 ## 6.主机添加mongodb检测模块
+
 配置-》主机-》选择主机
-![image.png](https://img.hacpai.com/file/2020/04/image-c90f9909.png)
+
+![image.png](images/3.png)
 
 模板-》选择
-![image.png](https://img.hacpai.com/file/2020/04/image-aa6d4d51.png)
+
+![image.png](images/4.png)
 
 勾选`Template MongoDB`，点击更新
-![image.png](https://img.hacpai.com/file/2020/04/image-3119eddb.png)
+
+![image.png](images/5.png)
 
 
 ## 7.验证
+
 检测-》最新数据-》应用集选择mongodb，点击应用
-![image.png](https://img.hacpai.com/file/2020/04/image-d41b0df1.png)
+
+![image.png](images/6.png)
 
 检测-》图形-》选择mongodb相关内容
-![image.png](https://img.hacpai.com/file/2020/04/image-c383439d.png)
+
+![image.png](images/7.png)
 
 ## 8.最终效果
-![image.png](https://img.hacpai.com/file/2020/04/image-cac95e30.png)
+
+![image.png](images/8.png)
