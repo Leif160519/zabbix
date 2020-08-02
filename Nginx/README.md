@@ -143,12 +143,12 @@ zabbix_get -s 127.0.0.1  -p 10050 -k 'nginx.status[ping]'
 
 ### 3.2 添加模板
 
-![image.png](https://img.hacpai.com/file/2020/04/image-520acfbf.png)
+![image.png](images/1.png)
 
 > 注意：不要添加错了，zabbix自带nginx模板不过我们不用
 
 ### 3.3 效果
-![image.png](https://img.hacpai.com/file/2020/04/image-3f9e82a2.png)
+![image.png](images/2.png)
 
 
 ## 4.参考
