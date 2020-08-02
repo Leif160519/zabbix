@@ -2,7 +2,7 @@
 ## 1. 关联mysql模版
 
 步骤：`配置` > `主机` > `点击主机的主机` > `模版`
-![image.png](https://img.hacpai.com/file/2020/04/image-1d161a34.png)
+![image.png](images/1.png)
 
 点击那个模版进去看看模版的描述
 ```
@@ -87,13 +87,13 @@ systemctl restart zabbix-agent
 ```
 
 ### 2.8 看数据在监测 > 最新数据
-![image.png](https://img.hacpai.com/file/2020/04/image-5fd22957.png)
+![image.png](images/2.png)
 
 ### 2.9 看图标在监测 > 图形里
-![image.png](https://img.hacpai.com/file/2020/04/image-433a6bbc.png)
+![image.png](images/3.png)
 
 ### 2.10 最终效果预览
-![image.png](https://img.hacpai.com/file/2020/04/image-6206402a.png)
+![image.png](images/4.png)
 
 ## 3.参考
 [3分钟配置zabbix 监控mysql](https://my.oschina.net/u/3947618/blog/3210184)
